@@ -1,24 +1,30 @@
 # pxt-seeed-temperature
 
+![](https://github.com/MKleinSB/pxt-Seeed-Temperatursensor/blob/master/Sensor.png)
 
+ Paket für den Temperatursensor V1.2 von Seeed für Makecode V1 Core (die Temperatur wird mit 2 Nachkommastellen angezeigt)
+ 
+ basierend auf dem Projekt von Tino Hempel
+ 
+ https://www.hackster.io/ToniTaste/calliope-mini-und-grove-temperatur-sensor-v1-2-955ab7
+ 
+ CC BY V4.0 https://creativecommons.org/licenses/by/4.0/
 
-## TODO
+ Danke Tino!
 
-- [ ] Add a reference for your blocks here
-- [ ] Add "icon.png" image (300x200) in the root folder
-- [ ] Add "- beta" to the GitHub project description if you are still iterating it.
-- [ ] Turn on your automated build on https://travis-ci.org
-- [ ] Use "pxt bump" to create a tagged release on GitHub
-- [ ] Get your package reviewed and approved https://makecode.microbit.org/packages/approval
+ Liest die Temperatur vom Grove-Sensor aus.
+ 
+## Temperatur()
+![](https://github.com/MKleinSB/pxt-Seeed-Temperatursensor/blob/master/temperatur.png)
 
-Read more at https://makecode.microbit.org/packages/build-your-own
+Diese Funktion gibt die aktuelle Temperatur als Zahl zurück.
 
-## License
+## SchreibeTemperatur()
+![](https://github.com/MKleinSB/pxt-Seeed-Temperatursensor/blob/master/schreibetemperatur.png)
 
-
+Diese Funktion schreibt die aktuelle Temperatur auf das Display des Calliope Mini bzw. gibt eine Fehlermeldung
+aus, wenn der Temperaturbereich über-/unterschritten wird. Es wird automatisch ⁰C angehängt.
 
 ## Supported targets
 
-* for PXT/microbit
-(The metadata above is needed for package search.)
-
+* for PXT/calliope
