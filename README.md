@@ -15,15 +15,14 @@
  Liest die Temperatur vom Grove-Sensor aus.
  
 ## Temperatur()
-![](https://github.com/MKleinSB/pxt-Seeed-Temperatursensor/blob/master/temperatur.png)
+![](https://github.com/MKleinSB/pxt-seeed-temperature/blob/master/temperatur.png)
 
 Diese Funktion gibt die aktuelle Temperatur als Zahl zurück.
 
 ## SchreibeTemperatur()
-![](https://github.com/MKleinSB/pxt-Seeed-Temperatursensor/blob/master/schreibetemperatur.png)
+![](https://github.com/MKleinSB/pxt-seeed-temperature/blob/master/schreibetemperatur.png)
 
-Diese Funktion schreibt die aktuelle Temperatur auf das Display des Calliope Mini bzw. gibt eine Fehlermeldung
-aus, wenn der Temperaturbereich über-/unterschritten wird. Es wird automatisch ⁰C angehängt.
+Diese Funktion schreibt die aktuelle Temperatur auf das Display des Calliope Mini. Es wird automatisch ⁰C angehängt.
 
 ## Supported targets
 
