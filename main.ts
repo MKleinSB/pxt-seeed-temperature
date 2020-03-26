@@ -6,8 +6,21 @@
 * Danke Tino!
 */
 
+let TemperaturPin: AnalogPin = AnalogPin.P1;
+
 //% color=#5042f4 icon="\uf2c9"
 namespace SeeedTemperature {
+
+  /**
+    * Setzt den Analogpin für den Temperatursensor. Standard ist P1.
+    * Rechter Grove-Port wäre C16
+    */
+    //% blockId="SetzeTempPin"
+    //% block="setze Sensorpin auf %tPin"
+    export function SetzeTempPin(tPin:AnalogPin): void {
+        TemperaturPin=tPin
+    }
+
     /**
      * Liest die Temperatur des Grove-Sensors in °C aus.
      */
@@ -16,7 +29,7 @@ namespace SeeedTemperature {
     export function Temperatur(): number {
         let Kehrwert = 0
         let Temperatur = 0
-        Kehrwert = 1 / 298.15 + Math.log((1023 / pins.analogReadPin(9) - 1)) / 4250 //Calliope Pin C16
+        Kehrwert = 1 / 298.15 + Math.log((1023 / pins.analogReadPin(TemperaturPin) - 1)) / 4250 
         Temperatur = 1 / Kehrwert - 273.15
         return Temperatur;
     }
