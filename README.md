@@ -24,6 +24,12 @@ Diese Funktion gibt die aktuelle Temperatur als Zahl zurück.
 
 Diese Funktion schreibt die aktuelle Temperatur auf das Display des Calliope Mini. Es wird automatisch ⁰C angehängt.
 
+## SetzeTempPin()
+![](https://github.com/MKleinSB/pxt-seeed-temperature/blob/master/SetzeTempPin.png)
+
+Diese Funktion legt den Pin für den Temperatursensor fest. Voreingestellt ist P1. Am rechten Groveport des Calliope Mini ist es C16.
+
 ## Supported targets
 
 * for PXT/calliope
+* for PXT/microbit
