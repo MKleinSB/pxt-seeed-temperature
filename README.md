@@ -17,17 +17,14 @@
 ## Temperatur()
 ![](https://github.com/MKleinSB/pxt-seeed-temperature/blob/master/temperatur.png)
 
-Diese Funktion gibt die aktuelle Temperatur als Zahl zurück.
+Diese Funktion gibt die aktuelle Temperatur als Zahl mit 2 Nachkommastellen zurück. 
+Als Parameter muss der Analogpin angegeben werden, an dem das Modul angeschlossen ist.
 
 ## SchreibeTemperatur()
 ![](https://github.com/MKleinSB/pxt-seeed-temperature/blob/master/schreibetemperatur.png)
 
-Diese Funktion schreibt die aktuelle Temperatur auf das Display des Calliope Mini. Es wird automatisch ⁰C angehängt.
-
-## SetzeTempPin()
-![](https://github.com/MKleinSB/pxt-seeed-temperature/blob/master/SetzeTempPin.png)
-
-Diese Funktion legt den Pin für den Temperatursensor fest. Voreingestellt ist P1. Am rechten Groveport des Calliope Mini ist es C16.
+Diese Funktion schreibt die aktuelle Temperatur auf das 5x5 Display. Es wird automatisch ⁰C angehängt.
+Als Parameter muss der Analogpin angegeben werden, an dem das Modul angeschlossen ist.
 
 ## Supported targets
 
