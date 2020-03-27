@@ -14,7 +14,7 @@ namespace SeeedTemperature {
      */
     //% blockId="Temperatur"
     //% block="Temperatur (°C) %tPin"
-    //% tPin.defl=9 //C16 beim Calliope
+    //% tPin.defl=AnalogPin.C16
     export function Temperatur(tPin: AnalogPin): number {
         let Kehrwert = 0
         let Temperatur = 0
@@ -28,7 +28,7 @@ namespace SeeedTemperature {
     */
     //% blockId="SchreibeTemperatur"
     //% block="schreibe Temperatur (°C) %tPin"
-    //% tPin.defl=9 //C16 beim Calliope
+    //% tPin.defl=AnalogPin.C16 
     export function SchreibeTemperatur(tPin: AnalogPin): void {
         basic.showNumber(Temperatur(tPin))
         images.createBigImage(`
