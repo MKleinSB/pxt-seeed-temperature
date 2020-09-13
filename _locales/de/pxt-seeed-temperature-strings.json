@@ -1,4 +1,5 @@
 {
-    "NeoPixelColors.Black|block": "schwarz",
-    "NeoPixelColors.Blue|block": "blau"
+    "{id:category}SeeedTemperature": "SeeedTemperatur",
+    "SeeedTemperature.SchreibeTemperatur|block": "Temperatur (°C) %tPin",
+    "SeeedTemperature.Temperatur|block": "schreibe Temperatur (°C) %tPin"
 }
