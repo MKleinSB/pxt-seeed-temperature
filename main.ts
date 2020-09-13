@@ -13,7 +13,7 @@ namespace SeeedTemperature {
      * Liest die Temperatur des Grove-Sensors in °C aus.
      */
     //% blockId="Temperatur"
-    //% block="Temperatur (°C) %tPin"
+    //% block="temperature (°C) %tPin"
     //% tPin.defl=AnalogPin.C16
     export function Temperatur(tPin: AnalogPin): number {
         let Kehrwert = 0
@@ -27,7 +27,7 @@ namespace SeeedTemperature {
     * Schreibt die aktuelle Temperatur in °C auf das 5x5 Display
     */
     //% blockId="SchreibeTemperatur"
-    //% block="schreibe Temperatur (°C) %tPin"
+    //% block="write temperature (°C) %tPin"
     //% tPin.defl=AnalogPin.C16 
     export function SchreibeTemperatur(tPin: AnalogPin): void {
         basic.showNumber(Temperatur(tPin))
