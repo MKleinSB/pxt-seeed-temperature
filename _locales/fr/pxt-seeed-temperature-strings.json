@@ -1,0 +1,5 @@
+{
+    "{id:category}SeeedTemperature": "SeeedTempérature",
+    "SeeedTemperature.SchreibeTemperatur|block": "température (°C) %tPin",
+    "SeeedTemperature.Temperatur|block": "écrire la température (°C) %tPin"
+}
